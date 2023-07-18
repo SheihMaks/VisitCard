@@ -41,7 +41,7 @@
         display: flex;
         margin-right: -10px;
         @media screen and (min-width: $min_tablet) {
-                margin-right: -28px;
+                margin-right: -26px;
             }
         @media screen and (min-width: $min_desktop) {
                 margin-right: -36px;
@@ -50,8 +50,8 @@
             margin-right: 10px;
             font-size: 16px;
             @media screen and (min-width: $min_tablet) {
-                margin-right: 28px;
-                    font-size: 24px;
+                margin-right: 26px;
+                    font-size: 22px;
                 }
             @media screen and (min-width: $min_desktop) {
                 margin-right: 36px;
