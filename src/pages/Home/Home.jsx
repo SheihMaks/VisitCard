@@ -1,7 +1,11 @@
+import HomePage from "components/screens/HomePage";
 import React from "react";
 
 const Home = () => {
-    return (<div></div>)
+    return (
+        <>
+        <HomePage/>
+        </>)
 
 }
 
