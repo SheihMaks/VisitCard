@@ -1,15 +1,18 @@
+import React from "react";
+import styles from "./HomePage.module.scss"
 import AboutUs from "components/sections/AboutUs";
 import Hero from "components/sections/Hero";
 import OurWorks from "components/sections/OurWorks";
-import React from "react";
+
 
 const HomePage = () => {
     return (
-        <>
-        <Hero />
+        // <div className={styles.homePageContainer}>
+        <><Hero />
         <AboutUs/>
-        <OurWorks />
-        </>)
+        <OurWorks /></>
+        // </div >
+        )
 }
 
 export default HomePage;

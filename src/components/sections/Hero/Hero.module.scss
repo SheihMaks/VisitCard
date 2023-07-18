@@ -1,16 +1,62 @@
 @import "styles/_variables.scss";
 
 .heroSection{
-    width: 100%;
-    height:100vw;
+    width: 100vw;
+    height:256px;
     background-image: url(../../../images/main_mobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 @media screen and (min-width: $min_tablet) {
+    height: 529px;
     background-image: url(../../../images/main_tablet.jpg);
 }
 @media screen and (min-widt: $min_desktop) {
+    height: 1024px;
     background-image: url(../../../images/main.jpg);
 }
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+    color: #FFF;
+    @media screen and (min-width:$min_tablet) {
+        padding-top: 40px;
+    }
+    @media screen and (min-width:$min_desktop) {
+        padding-top: 69px;
+    }
+    h1{
+        font-size: 14px;
+        @media screen and (min-width: $min_tablet) {
+            font-size: 28px;
+        }
+        @media screen and (min_width:$min_desktop){
+            font-size: 40px;
+        }
+    }
+    .navLinks{
+        display: flex;
+        margin-right: -10px;
+        @media screen and (min-width: $min_tablet) {
+                margin-right: -28px;
+            }
+        @media screen and (min-width: $min_desktop) {
+                margin-right: -36px;
+            }
+        li{
+            margin-right: 10px;
+            font-size: 16px;
+            @media screen and (min-width: $min_tablet) {
+                margin-right: 28px;
+                    font-size: 24px;
+                }
+            @media screen and (min-width: $min_desktop) {
+                margin-right: 36px;
+                font-size: 32px;
+            }
+        }
+    }
 }
