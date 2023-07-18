@@ -3,12 +3,12 @@ import styles from "./Hero.module.scss";
 
 const Hero = () => {
     return (<div className={styles.heroSection}>
-        <div>
+        <div className={styles.navContainer}>
             <h1><a href="#contacts">Cristofer Robbin</a></h1>
-            <div>
-                <a href="ourWorks">works</a>
-                <a href="#aboutUs">about</a>
-            </div>
+            <ul className={styles.navLinks}>
+                <li><a href="ourWorks">works</a></li>
+                <li><a href="#aboutUs">about</a></li>
+            </ul>
         </div>
     </div>)
 }
