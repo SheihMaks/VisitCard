@@ -1,0 +1,16 @@
+@import "styles/_variables.scss";
+
+.heroSection{
+    width: 100%;
+    height:100vw;
+    background-image: url(../../../images/main_mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+@media screen and (min-width: $min_tablet) {
+    background-image: url(../../../images/main_tablet.jpg);
+}
+@media screen and (min-widt: $min_desktop) {
+    background-image: url(../../../images/main.jpg);
+}
+}
