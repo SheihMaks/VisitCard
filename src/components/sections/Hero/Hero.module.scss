@@ -13,7 +13,7 @@
     padding: 0 2.15%;
     background-image: url(../../../images/main_tablet.jpg);
 }
-@media screen and (min-widt: $min_desktop) {
+@media screen and (min-width: $min_desktop) {
     height: 1024px;
     padding: 0 5.56%;
     background-image: url(../../../images/main.jpg);
@@ -44,7 +44,7 @@
         display: flex;
         margin-right: -10px;
         @media screen and (min-width: $min_tablet) {
-                margin-right: -22px;
+                margin-right: -21px;
             }
         @media screen and (min-width: $min_desktop) {
                 margin-right: -36px;
@@ -53,8 +53,8 @@
             margin-right: 10px;
             font-size: 16px;
             @media screen and (min-width: $min_tablet) {
-                margin-right: 22px;
-                    font-size: 20px;
+                margin-right: 21px;
+                font-size: 18px;
                 }
             @media screen and (min-width: $min_desktop) {
                 margin-right: 36px;

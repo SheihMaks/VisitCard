@@ -1,0 +1,31 @@
+@import "styles/_variables.scss";
+
+.aboutUsContainer{
+    padding: 14.75% 5.56% 14.75% 5.56%;
+    color: #999;
+    @media screen and (min-width: $min_tablet){
+        padding: 9.30% 2.15% 11.63% 2.15%;
+    }
+    @media screen and (min-width: $min_desktop) {
+        padding: 28.13% 5.56% 12.42% 5.56%;
+    }
+    h2{
+        font-size: 16px;
+        @media screen and (min-width: $min_tablet) {
+            font-size: 24px;
+        }
+        @media screen and (min-width: $min_desktop) {
+            font-size: 40px;
+        }
+    }
+    p{
+        font-size: 14px;
+        line-height: 140.1%;
+        @media screen and (min-width: $min_tablet) {
+            font-size: 20px;
+        }
+        @media screen and (min-width: $min_desktop) {
+            font-size: 32px;
+        }
+    }
+}
