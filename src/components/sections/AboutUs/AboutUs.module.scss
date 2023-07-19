@@ -11,6 +11,7 @@
     }
     h2{
         font-size: 16px;
+        font-family: "Inconsolata";
         margin-bottom: 4.61%;
         @media screen and (min-width: $min_tablet) {
             font-size: 24px;
@@ -25,6 +26,7 @@
         display: block;
         width: 48.33%;
         font-size: 14px;
+        font-family: "Homenaje";
         line-height: 140.1%;
         margin-left: auto;
         @media screen and (min-width: $min_tablet) {
@@ -32,7 +34,6 @@
         }
         @media screen and (min-width: $min_desktop) {
             font-size: 32px;
-            width: 43.75%;
         }
     }
 }

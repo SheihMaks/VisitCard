@@ -32,11 +32,12 @@
         padding-top: 69px;
     }
     h1{
-        font-size: 14px;
+        font-size: 16px;
+        font-family: "Inconsolata";
         @media screen and (min-width: $min_tablet) {
             font-size: 28px;
         }
-        @media screen and (min_width:$min_desktop){
+        @media screen and (min-width:$min_desktop){
             font-size: 40px;
         }
     }
@@ -52,6 +53,7 @@
         li{
             margin-right: 10px;
             font-size: 16px;
+            font-family: "Homenaje";
             @media screen and (min-width: $min_tablet) {
                 margin-right: 21px;
                 font-size: 18px;
