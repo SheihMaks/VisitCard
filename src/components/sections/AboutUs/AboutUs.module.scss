@@ -7,25 +7,32 @@
         padding: 9.30% 2.15% 11.63% 2.15%;
     }
     @media screen and (min-width: $min_desktop) {
-        padding: 28.13% 5.56% 12.42% 5.56%;
+        padding: 28.12% 5.56% 12.42% 5.56%;
     }
     h2{
         font-size: 16px;
+        margin-bottom: 4.61%;
         @media screen and (min-width: $min_tablet) {
             font-size: 24px;
+            margin-bottom: 9.30%;
         }
         @media screen and (min-width: $min_desktop) {
             font-size: 40px;
+            margin-bottom: 5.76%;
         }
     }
     p{
+        display: block;
+        width: 48.33%;
         font-size: 14px;
         line-height: 140.1%;
+        margin-left: auto;
         @media screen and (min-width: $min_tablet) {
-            font-size: 20px;
+            width: 43.75%;
         }
         @media screen and (min-width: $min_desktop) {
             font-size: 32px;
+            width: 43.75%;
         }
     }
 }
