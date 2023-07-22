@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./OurWorks.module.scss";
 import icons from "../../../images/icons.svg";
+import Gallery from "components/share/Gallery/Gallery";
 
 const OurWorks = () => {
   return (
     <>
       <section className={styles.ourWorksSection}>
-        <div className={styles.ourWorksGallery}>Gallary</div>
+        <Gallery />
         <div className={styles.footer}>
           <div className={styles.footerSocialsBox}>
             <a href="/" target="_blanc" rel="noopener noreferrer">
