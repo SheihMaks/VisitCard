@@ -4,19 +4,19 @@
     width: 100vw;
     height:256px;
     padding:0 5.56%;
-    background-image: url(../../../images/main_mobile.jpg);
+    background-image: url(../../../images/main_mobile.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 @media screen and (min-width: $min_tablet) {
     height: 529px;
     padding: 0 2.15%;
-    background-image: url(../../../images/main_tablet.jpg);
+    background-image: url(../../../images/main_tablet.webp);
 }
 @media screen and (min-width: $min_desktop) {
     height: 1024px;
     padding: 0 5.56%;
-    background-image: url(../../../images/main.jpg);
+    background-image: url(../../../images/main.webp);
 }
 }
 
