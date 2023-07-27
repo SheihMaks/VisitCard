@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Hero.module.scss";
 
 const Hero = () => {
-    return (<div className={styles.heroSection}>
+    return (<section className={styles.heroSection}>
         <div className={styles.navContainer}>
             <h1><a href="#contacts">Cristofer Robbin</a></h1>
             <ul className={styles.navLinks}>
@@ -10,7 +10,7 @@ const Hero = () => {
                 <li><a href="#aboutUs">about</a></li>
             </ul>
         </div>
-    </div>)
+    </section>)
 }
 
 export default Hero;
