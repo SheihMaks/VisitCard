@@ -1,20 +1,23 @@
 @import "styles/_variables.scss";
 
 .heroSection{
-    width: 100vw;
-    height:256px;
+    width: 100%;
+    height:100%;
     padding:0 5.56%;
     background-image: url(../../../images/main_mobile.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 @media screen and (min-width: $min_tablet) {
-    height: 529px;
+    // height: 529px;
+    // height: 100%;
     padding: 0 2.15%;
     background-image: url(../../../images/main_tablet.webp);
 }
 @media screen and (min-width: $min_desktop) {
-    height: 1024px;
+    width:100%;
+    // height: 1024px;
+    // height: 100%;
     padding: 0 5.56%;
     background-image: url(../../../images/main.webp);
 }
@@ -24,12 +27,15 @@
     display: flex;
     justify-content: space-between;
     padding-top: 17px;
+    padding-bottom: 86.33%;
     color: #FFF;
     @media screen and (min-width:$min_tablet) {
         padding-top: 40px;
+        padding-bottom: 76%;
     }
     @media screen and (min-width:$min_desktop) {
         padding-top: 69px;
+        padding-bottom: 89.16%;
     }
     h1{
         font-size: 16px;

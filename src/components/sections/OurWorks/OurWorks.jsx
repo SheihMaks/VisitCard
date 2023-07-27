@@ -6,10 +6,10 @@ import Gallery from "components/share/Gallery/Gallery";
 const OurWorks = () => {
   return (
     <>
-      <section className={styles.ourWorksSection}>
+      <section id="ourWorks" className={styles.ourWorksSection}>
         <Gallery />
         <div className={styles.footer}>
-          <div className={styles.footerSocialsBox}>
+          <div id="contacts" className={styles.footerSocialsBox}>
             <a href="/" target="_blanc" rel="noopener noreferrer">
               <svg className={styles.footerSocialIcon}>
                 <use href={icons + "#icon-instagram"} />
