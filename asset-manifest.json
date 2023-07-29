@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/VisitCard/static/css/main.5cc040ae.css",
+    "main.js": "/VisitCard/static/js/main.fdeebe52.js",
+    "static/media/4.png": "/VisitCard/static/media/4.451ab2b1dd4ee24616c0.png",
+    "static/media/1.png": "/VisitCard/static/media/1.92b7202f275515062a4f.png",
+    "static/media/2.png": "/VisitCard/static/media/2.ddcd077aa61768e48727.png",
+    "static/media/6.png": "/VisitCard/static/media/6.fb5a63e04e1f22f2c726.png",
+    "static/media/5.png": "/VisitCard/static/media/5.7c39531257cbe62ab68b.png",
+    "static/media/3.png": "/VisitCard/static/media/3.0e3d6862a363cb5412f0.png",
+    "static/media/main.webp": "/VisitCard/static/media/main.d581912b907cd662d7ab.webp",
+    "static/media/AboutUs.svg": "/VisitCard/static/media/AboutUs.f1974915d89f5e95ca20f9c1fc39f08d.svg",
+    "static/media/main_tablet.webp": "/VisitCard/static/media/main_tablet.3c60f9f1b94a6b5ceccc.webp",
+    "static/media/icons.svg": "/VisitCard/static/media/icons.6354a1c55a9af1ae35433b7835e61076.svg",
+    "static/media/main_mobile.webp": "/VisitCard/static/media/main_mobile.ec478871296fc0778d92.webp",
+    "index.html": "/VisitCard/index.html",
+    "main.5cc040ae.css.map": "/VisitCard/static/css/main.5cc040ae.css.map",
+    "main.fdeebe52.js.map": "/VisitCard/static/js/main.fdeebe52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cc040ae.css",
+    "static/js/main.fdeebe52.js"
+  ]
+}
