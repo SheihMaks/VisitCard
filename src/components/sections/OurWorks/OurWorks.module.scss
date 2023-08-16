@@ -2,7 +2,7 @@
 
 .ourWorksSection{
     width: 100vw;
-    padding: 16px;
+    padding: 16px 2.15% 16px 2.15%;
     padding-bottom: 40px;
 @media screen and (min-width: $min_tablet) {
     padding-bottom: 32px;
@@ -16,9 +16,6 @@
 .footer{
     margin: 0 auto;
     width: 128px;
-    @media screen and (min-width: $min_tablet) {
-    margin-top: 40px;
-    }
     @media screen and (min-width: $min_desktop) {
     width: 255px;
     }
@@ -34,9 +31,14 @@
     display: inline-block;
     width: 24px;
     height: 24px;
+    transition: 100ms;
     @media screen and (min-width: $min_desktop) {
     width: 48px;
     height: 48px;
+    }
+    &:focus,
+    &:hover{
+        transform: scale(1.3);
     }
     
 }
