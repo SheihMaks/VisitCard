@@ -1,18 +1,20 @@
 @import "styles/_variables.scss";
 
-.gallery{
-    display: grid; 
-    grid-template-columns: 49% 49%;   
-    gap: 16px;
-    margin-bottom: 24px;
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -5.56%;
+    margin-bottom: -16px;
+    padding-bottom: 24px;
+
     @media screen and (min-width: $min_tablet) {
-        grid-template-columns: 48% 48%;
-        gap: 24px;
-        margin-bottom: 40px;
+        margin-right: -2.68%;
+        padding-bottom: 40px;
     }
+
     @media screen and (min-width: $min_desktop) {
-        grid-template-columns: 32% 32% 32%;
-        gap: 30px;
-        margin-bottom: 96px;
+        margin-right: -1.56%;
+        padding-bottom: 96px;
     }
 }
