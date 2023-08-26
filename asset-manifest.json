@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VisitCard/static/css/main.5fd5d4a1.css",
+    "main.css": "/VisitCard/static/css/main.690be6c0.css",
     "main.js": "/VisitCard/static/js/main.0eda2fec.js",
     "static/media/4.png": "/VisitCard/static/media/4.451ab2b1dd4ee24616c0.png",
     "static/media/1.png": "/VisitCard/static/media/1.92b7202f275515062a4f.png",
@@ -14,11 +14,11 @@
     "static/media/icons.svg": "/VisitCard/static/media/icons.6354a1c55a9af1ae35433b7835e61076.svg",
     "static/media/main_mobile.webp": "/VisitCard/static/media/main_mobile.ec478871296fc0778d92.webp",
     "index.html": "/VisitCard/index.html",
-    "main.5fd5d4a1.css.map": "/VisitCard/static/css/main.5fd5d4a1.css.map",
+    "main.690be6c0.css.map": "/VisitCard/static/css/main.690be6c0.css.map",
     "main.0eda2fec.js.map": "/VisitCard/static/js/main.0eda2fec.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fd5d4a1.css",
+    "static/css/main.690be6c0.css",
     "static/js/main.0eda2fec.js"
   ]
 }
