@@ -60,23 +60,20 @@
     }
     .navLinks{
         display: flex;
-        margin-right: -10px;
+        gap: 10px;
         @media screen and (min-width: $min_tablet) {
-                margin-right: -21px;
+                gap:18px;
             }
         @media screen and (min-width: $min_desktop) {
-                margin-right: -36px;
+                gap: 36px;
             }
         li{
-            margin-right: 10px;
             font-size: 16px;
             font-family: "Homenaje";
             @media screen and (min-width: $min_tablet) {
-                margin-right: 21px;
                 font-size: 18px;
                 }
             @media screen and (min-width: $min_desktop) {
-                margin-right: 36px;
                 font-size: 32px;
             }
             a{
